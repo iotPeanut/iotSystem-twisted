@@ -1,0 +1,5 @@
+2018-03-31 20:26:19+0800 [-] Log opened.
+2018-03-31 20:26:19+0800 [-] Traceback (most recent call last):
+2018-03-31 20:26:19+0800 [-]   File "D:/myIOT/TxServer/server.py", line 45, in <module>
+2018-03-31 20:26:19+0800 [-]     reactor.listenTcp(5000,serverFactory)
+2018-03-31 20:26:19+0800 [-] AttributeError: 'IOCPReactor' object has no attribute 'listenTcp'
